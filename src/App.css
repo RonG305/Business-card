@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+body {
+  background-color: #23252C;
+  color: #fff;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+ 
+  
+}
+
+
+
+
+.header {
+  text-align: center;
+  padding: 30px 0;
+  line-height: 1.7rem;
+  width: 100%;
+
+ 
+
+}
+img {
+  width: 200px;
+  height: auto;
+}
+
+ h3 {
+  color: aqua;
+}
+
+.app-content {
+
+    background-color: #23231A;
+    width: 60%;
+    margin: 0 auto;
+    height: 120vh;
+    color: #fff;
+    
+  
+}
+
+.header-section > p {
+  color: #F3BF99;
+  
+}
+
+.header-section > small {
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin-left: 15px;
+  padding: 5px 8px;
+  width: 140px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+ 
+}
+
+.buttons .linkedIn {
+  background-color: blue;
+   color: #fff;
+}
+
+button:hover {
+  transition: 0.3s ease-out;
+  background-color: orange;
+}
+
+.buttons .linkedIn:hover {
+  transition: 0.3s ease-out;
+  background-color: orange
+}
+
+
+/* About */
+.content {
+  font-size: 13px;
+  margin: 2rem ;
+  line-height: 1.5rem;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+ 
+  
+}
+
+.footer ul li {
+  margin-right: 2rem;
+ 
+}
+
+.fa-twitter, .fa-facebook {
+  color: rgb(107, 107, 207);
+}
+
+.fa-instagram {
+  color: orange;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-brands {
+  font-size: 22px;
+}
+
+
+
+.email .fa-envelope {
+  margin-right: 10px;
+}
+
+.footer .fa-brands {
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  background-color: #fff;
+}
+
+.footer .fa-brands:hover {
+  background-color: rgb(184, 240, 32);
+  transition: 0.3s ease-out;
+}
+
+
+
+
+@media(max-width: 700px) {
+  .app-content {
+    height: fit-content;
+    width: auto;
+  }
+
+
+
+}
+
